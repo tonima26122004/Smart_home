@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Open page</string>
+    <string name="smart_home">SMART HOME</string>
+    <string name="sign_in"><![CDATA[Sign in>>]]></string>
+    <string name="keep_it_safe">KEEP IT SAFE</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign Up</string>
+    <string name="todo">TODO</string>
+</resources>
