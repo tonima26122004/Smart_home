@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:gravity="center"
-        android:text="@string/sign_in"
+        android:text="Sign in"
         android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -44,6 +44,70 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signin"
         app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="292dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="132dp"
+        android:padding="15dp"
+        android:autofillHints=""
+        android:background="#50ffffff"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="173dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:text="Forget Password?"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="123dp"
+        android:layout_height="49dp"
+        android:text="Sign in"
+        android:textSize="20sp"
+        app:circularflow_radiusInDP="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.243"
+        app:strokeColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need Help?"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.081" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
