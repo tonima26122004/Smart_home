@@ -33,6 +33,7 @@
         android:text="@string/smart_home"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:fontFamily="serif"
         android:textColor="#FDFDFD"
         android:textSize="50sp"
         android:textStyle="normal|bold"
@@ -48,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/keep_it_safe"
+        android:fontFamily="serif"
         android:textAlignment="center"
         android:textColor="#FBFBFB"
         android:textSize="18sp"
@@ -60,16 +62,16 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="380dp"
-        android:layout_height="356dp"
+        android:layout_width="386dp"
+        android:layout_height="326dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.603"
         app:srcCompat="@drawable/home_icon" />
 
     <TextView
