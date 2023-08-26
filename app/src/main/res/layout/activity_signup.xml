@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background1"
-    android:onClick="openActivity2"
+    android:onClick="signInActivity"
     tools:context=".MainActivity">
 
     <TextView
@@ -139,31 +139,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password2"
-        app:layout_constraintVertical_bias="0.543" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:text="Already have an account?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.452" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="openActivity2"
-        android:text="Sign In"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:onClick="signInActivity"
+        android:text="Already have an account? SignIn"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.192" />
+        app:layout_constraintVertical_bias="0.313" />
 
     <TextView
         android:id="@+id/textView5"
