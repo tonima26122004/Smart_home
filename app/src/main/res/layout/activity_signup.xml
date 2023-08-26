@@ -72,7 +72,7 @@
         android:background="#50ffffff"
         android:drawableLeft="@drawable/baseline_account_circle_24"
         android:ems="10"
-        android:hint="Username"
+        android:hint=" Username"
         android:inputType="text"
         android:padding="15dp"
         android:textColor="@color/white"
