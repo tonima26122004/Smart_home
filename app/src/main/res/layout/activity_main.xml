@@ -14,6 +14,7 @@
         android:layout_width="163dp"
         android:layout_height="58dp"
         android:layout_marginBottom="140dp"
+        android:onClick="openActivity"
         android:text="Sign in »"
         android:textDirection="firstStrong"
         android:textSize="20sp"

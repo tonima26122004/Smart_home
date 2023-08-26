@@ -17,7 +17,10 @@
             android:exported="false" />
         <activity
             android:name=".sing_in"
-            android:exported="false" />
+            android:exported="false"
+                android:label="Second Activity"
+            android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
