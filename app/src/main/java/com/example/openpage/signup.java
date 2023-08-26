@@ -15,9 +15,4 @@ public class signup extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
     }
 
-    public void signInActivity(View v) {
-        Toast.makeText(getApplicationContext(), "Sign In Page", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, sing_in.class);
-        startActivity(intent);
-    }
 }
