@@ -51,7 +51,7 @@
         android:background="#50ffffff"
         android:drawableLeft="@drawable/baseline_password_24"
         android:ems="10"
-        android:hint="Conform Password"
+        android:hint=" Password"
         android:inputType="textPassword"
         android:padding="15dp"
         android:textColor="@color/white"
@@ -92,7 +92,7 @@
         android:background="#50ffffff"
         android:drawableLeft="@drawable/baseline_mark_email_read_24"
         android:ems="10"
-        android:hint="Email"
+        android:hint=" Email"
         android:inputType="textEmailAddress"
         android:padding="15dp"
         android:textColor="@color/white"
@@ -113,7 +113,7 @@
         android:background="#50ffffff"
         android:drawableLeft="@drawable/baseline_password_24"
         android:ems="10"
-        android:hint="Conform Password"
+        android:hint=" Confirm Password"
         android:inputType="textPassword"
         android:padding="15dp"
         android:textColor="@color/white"
@@ -149,7 +149,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <TextView
         android:id="@+id/textView4"
@@ -158,10 +158,10 @@
         android:text="Sign In"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.018"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <TextView
         android:id="@+id/textView5"
