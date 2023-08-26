@@ -16,9 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void openActivity(View v){
-        Toast.makeText(getApplicationContext(),"Sign in Page",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"Sign up Page",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this , signup.class);
+        startActivity(intent);
+    }
+
+    public void openActivity2(View v){
+        Toast.makeText(getApplicationContext(),"Sign up Page",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this , sing_in.class);
         startActivity(intent);
-
     }
 }
