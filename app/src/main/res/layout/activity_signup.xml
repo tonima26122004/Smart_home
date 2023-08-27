@@ -44,7 +44,7 @@
         tools:ignore="HardcodedText" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/password1"
         android:layout_width="292dp"
         android:layout_height="53dp"
         android:layout_marginTop="8dp"
@@ -122,12 +122,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3"
+        app:layout_constraintTop_toBottomOf="@+id/password1"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText,RtlHardcoded" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -147,7 +147,7 @@
         android:text="or"
         android:textColor="@color/white"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/signin1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password2"
@@ -160,7 +160,7 @@
         android:text="Sign Up Using Google"
         android:textSize="15sp"
         app:circularflow_radiusInDP="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/signin1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
@@ -177,5 +177,16 @@
         app:layout_constraintTop_toTopOf="@+id/button2"
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="testerActivity"
+        android:text="TESTER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signin1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
