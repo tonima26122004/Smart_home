@@ -154,7 +154,7 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/gbtn"
         android:layout_width="251dp"
         android:layout_height="54dp"
         android:text="Sign Up Using Google"
@@ -170,11 +170,11 @@
         android:id="@+id/imageView"
         android:layout_width="33dp"
         android:layout_height="39dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="@+id/gbtn"
+        app:layout_constraintEnd_toEndOf="@+id/gbtn"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/gbtn"
+        app:layout_constraintTop_toTopOf="@+id/gbtn"
         app:layout_constraintVertical_bias="0.466"
         app:srcCompat="@drawable/google" />
 
